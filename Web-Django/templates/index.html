@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ez-Diagnose</title>
+        <link rel="stylesheet" href="{% static 'plugins/bootstrap-5.2.3/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/app.css' %}">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="{% static 'image\logo.png' %}" alt="" id="nav-logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Developer</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="hero">
+                <img src="{% static 'image\content\accuray.jpg' %}">
+                <div class="hero-content row row-cols-1 row-cols-lg-2 justify-content-center align-items-center">
+                    <div class="col">
+                        <h1>EZ - Diagnose</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius provident maiores ullam a
+                            aliquid, atque, dolorum nam fugiat vitae animi natus. Corrupti</p>
+                        <div class="diagnose pt-3">
+                            <a href="/form-diagnose" class="btn btn-success px-4 py-2">
+                                Start Diagnose
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col text-end">
+                        <img src="{% static 'image\content\diagnose.png' %}">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <script src="{% static 'plugins\bootstrap-5.2.3\js\bootstrap.bundle.min.js' %}"></script>
+    </body>
+
+</html>

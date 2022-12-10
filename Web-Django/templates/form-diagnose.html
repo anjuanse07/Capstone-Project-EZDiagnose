@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ez-Diagnose</title>
+        <link rel="stylesheet" href="{% static 'plugins/bootstrap-5.2.3/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/app.css' %}">
+
+        <!-- Load Jquery From Plugins in assets -->
+        <script src="{% static 'plugins\jquery\index.min.js' %}"></script>
+
+        <!-- Load Select2 From Plugins in assets -->
+        <link rel="stylesheet" href="{% static 'plugins\select2-4.1.0-rc.0\dist\css\select2.min.css' %}">
+        <script src="{% static 'plugins\select2-4.1.0-rc.0\dist\js\select2.min.js' %}"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="{% static 'image\logo.png' %}" alt="" id="nav-logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Developer</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="hero">
+                <img src="{% static 'image\content\accuray.jpg' %}">
+                <div class="hero-content d-flex justify-content-center align-items-center">
+                    <div class="card text-dark" id="form-diagnose">
+                        <div class="card-header text-center">
+                            Form Diagnose
+                        </div>
+                        <form action="/output-diagnose" method="POST" class="card-body">
+                            {% csrf_token %}
+                            <div class="mb-3">
+                                <label for="nama-lengkap" class="form-label">Nama Lengkap</label>
+                                <input type="text" class="form-control" id="nama-lengkap" name="nama_lengkap"
+                                    placeholder="Input nama">
+                            </div>
+                            <div class="mb-3">
+                                <label for="tanggal_lahir" class="form-label">Tanggal Lahir</label>
+                                <input type="date" class="form-control" id="tanggal_lahir" name="tanggal_lahir"
+                                    placeholder="Input tanggal lahir">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Pilih Gejala</label>
+                                <select class="form-control" id="select-gejala">
+                                    <option selected>Pilih Gejala</option>
+                                    {% for symptom in symptoms %}
+                                    <option value="{{ symptom }}">{{ symptom }}</option>
+                                    {% endfor %}
+                                </select>
+                                <script type="text/javascript">
+                                    $(document).ready(function () {
+                                        $('#select-gejala').select2();
+                                    });
+                                    $('#select-gejala').on('change', function () {
+                                        $('.selected-gejala').removeClass('d-none')
+                                        $('.selected-gejala').append(
+                                            '<span class="badge text-bg-primary me-2">' + $(this).val() +
+                                            '</span>')
+                                        $('option[value="' + $(this).val() + '"]').remove();
+                                    })
+                                </script>
+                            </div>
+                            <div class="mb-3 border p-2 selected-gejala d-none"></div>
+                            <div class="mb-3 text-center">
+                                <button type="submit" class="btn btn-success">Diagnose</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <script src="{% static 'plugins\bootstrap-5.2.3\js\bootstrap.bundle.min.js' %}"></script>
+    </body>
+
+</html>

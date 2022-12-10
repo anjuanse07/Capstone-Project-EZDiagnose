@@ -1,0 +1,704 @@
+Traceback (most recent call last):
+  File "/home/u1641559/capstone2022/passenger_wsgi.py", line 7, in <module>
+    application = get_wsgi_application()
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 92, in __getattr__
+    self._setup(name)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 79, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'EZDiagnose.settings'
+Traceback (most recent call last):
+  File "/home/u1641559/capstone2022/passenger_wsgi.py", line 7, in <module>
+    application = get_wsgi_application()
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 92, in __getattr__
+    self._setup(name)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 79, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'EZDiagnose.settings'
+[UID:1171][8607] Child process with pid: 9560 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/u1641559/capstone2022/passenger_wsgi.py", line 7, in <module>
+    application = get_wsgi_application()
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 92, in __getattr__
+    self._setup(name)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 79, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'EZDiagnose.settings'
+[UID:1171][8607] Child process with pid: 46080 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/u1641559/capstone2022/passenger_wsgi.py", line 7, in <module>
+    application = get_wsgi_application()
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 92, in __getattr__
+    self._setup(name)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 79, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'EZDiagnose.settings'
+Traceback (most recent call last):
+  File "/home/u1641559/capstone2022/passenger_wsgi.py", line 7, in <module>
+    application = get_wsgi_application()
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 92, in __getattr__
+    self._setup(name)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 79, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'EZDiagnose.settings'
+[UID:1171][48017] Child process with pid: 48702 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/u1641559/capstone2022/passenger_wsgi.py", line 7, in <module>
+    application = get_wsgi_application()
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 92, in __getattr__
+    self._setup(name)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 79, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'EZDiagnose.settings'
+[UID:1171][48017] Child process with pid: 6042 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/u1641559/capstone2022/passenger_wsgi.py", line 7, in <module>
+    application = get_wsgi_application()
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 92, in __getattr__
+    self._setup(name)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 79, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'EZDiagnose.settings'
+Traceback (most recent call last):
+  File "/home/u1641559/capstone2022/passenger_wsgi.py", line 7, in <module>
+    application = get_wsgi_application()
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 92, in __getattr__
+    self._setup(name)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 79, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'EZDiagnose.settings'
+[UID:1171][48714] Child process with pid: 979 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/u1641559/capstone2022/passenger_wsgi.py", line 7, in <module>
+    application = get_wsgi_application()
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 92, in __getattr__
+    self._setup(name)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 79, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'EZDiagnose.settings'
+[UID:1171][48017] Child process with pid: 23506 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/u1641559/capstone2022/passenger_wsgi.py", line 7, in <module>
+    application = get_wsgi_application()
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 92, in __getattr__
+    self._setup(name)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 79, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'EZDiagnose.settings'
+[UID:1171][48017] Child process with pid: 24792 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/u1641559/capstone2022/passenger_wsgi.py", line 10, in <module>
+    application = get_wsgi_application()
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 92, in __getattr__
+    self._setup(name)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 79, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'EZDiagnose.settings'
+[UID:1171][48017] Child process with pid: 30119 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/u1641559/capstone2022/passenger_wsgi.py", line 10, in <module>
+    application = get_wsgi_application()
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 92, in __getattr__
+    self._setup(name)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 79, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'EZDiagnose.settings'
+[UID:1171][48017] Child process with pid: 31624 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/u1641559/capstone2022/passenger_wsgi.py", line 10, in <module>
+    application = get_wsgi_application()
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 92, in __getattr__
+    self._setup(name)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 79, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'EZDiagnose.settings'
+[UID:1171][48017] Child process with pid: 34576 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home/u1641559/capstone2022/passenger_wsgi.py", line 10, in <module>
+    application = get_wsgi_application()
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 92, in __getattr__
+    self._setup(name)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 79, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 190, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'EZDiagnose.settings'
+[UID:1171][48017] Child process with pid: 31096 was killed by signal: 15, core dumped: no
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/EZDiagnose/views.py", line 6, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/EZDiagnose/views.py", line 6, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/EZDiagnose/views.py", line 6, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Not Found: /public/css/app.css
+Not Found: /public/plugins/bootstrap-5.2.3/css/bootstrap.min.css
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/image/logo.png
+Not Found: /public/image/content/diagnose.png
+Not Found: /public/image/content/accuray.jpg
+Not Found: /test
+Not Found: /test
+Not Found: /test
+Not Found: /public/plugins/bootstrap-5.2.3/css/bootstrap.min.css
+Not Found: /public/css/app.css
+Not Found: /public/image/logo.png
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/image/content/diagnose.png
+Not Found: /public/image/content/accuray.jpg
+Not Found: /public/plugins/bootstrap-5.2.3/css/bootstrap.min.css
+Not Found: /public/css/app.css
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/image/logo.png
+Not Found: /public/image/content/diagnose.png
+Not Found: /public/image/content/accuray.jpg
+Not Found: /public
+Not Found: /public/image/content/accuray.jpg
+Not Found: /public/image/content/accuray.jpg
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1641559/capstone2022/EZDiagnose/views.py", line 11, in index
+    return render(request, 'index.html')
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1641559/virtualenv/capstone2022/3.10/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+Not Found: /public/plugins/bootstrap-5.2.3/css/bootstrap.min.css
+Not Found: /public/css/app.css
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/image/logo.png
+Not Found: /public/image/content/diagnose.png
+Not Found: /public/image/content/accuray.jpg
+Not Found: /public/css/app.css
+Not Found: /public/plugins/bootstrap-5.2.3/css/bootstrap.min.css
+Not Found: /public/image/logo.png
+Not Found: /public/image/content/accuray.jpg
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/image/content/diagnose.png
+Not Found: /public/plugins/bootstrap-5.2.3/css/bootstrap.min.css
+Not Found: /public/css/app.css
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/image/content/accuray.jpg
+Not Found: /public/image/content/diagnose.png
+Not Found: /public/image/logo.png
+Not Found: /public/plugins/bootstrap-5.2.3/css/bootstrap.min.css
+Not Found: /public/css/app.css
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/image/logo.png
+Not Found: /public/image/content/diagnose.png
+Not Found: /public/image/content/accuray.jpg
+Not Found: /public/plugins/bootstrap-5.2.3/css/bootstrap.min.css
+Not Found: /public/css/app.css
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/image/logo.png
+Not Found: /public/image/content/accuray.jpg
+Not Found: /public/image/content/diagnose.png
+Not Found: /form-diagnose
+Not Found: /public
+Not Found: /public/image.logo.png
+Not Found: /public/image/.logo.png
+Not Found: /public/image/logo.png
+Not Found: /public/image/logo.png
+Not Found: /public/plugins/bootstrap-5.2.3/css/bootstrap.min.css
+Not Found: /public/css/app.css
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/image/logo.png
+Not Found: /public/image/content/accuray.jpg
+Not Found: /public/image/content/diagnose.png
+Not Found: /public/plugins/bootstrap-5.2.3/css/bootstrap.min.css
+Not Found: /public/css/app.css
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/image/logo.png
+Not Found: /public/image/content/diagnose.png
+Not Found: /public/image/content/accuray.jpg
+Not Found: /public/plugins/bootstrap-5.2.3/css/bootstrap.min.css
+Not Found: /public/css/app.css
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/image/content/accuray.jpg
+Not Found: /public/image/logo.png
+Not Found: /public/image/content/diagnose.png
+Not Found: /public/plugins/bootstrap-5.2.3/css/bootstrap.min.css
+Not Found: /public/css/app.css
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/image/content/accuray.jpg
+Not Found: /public/image/logo.png
+Not Found: /public/image/content/diagnose.png
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/plugins/bootstrap-5.2.3/js/bootstrap.bundle.min.js
+Not Found: /public/plugins/select2-4.1.0-rc.0/dist/js/select2.min.js
+Not Found: /public/plugins/select2-4.1.0-rc.0/dist/js/select2.min.js
+Not Found: /public/plugins/select2-4.1.0-rc.0/dist/js/select2.min.js
+Not Found: /public/plugins/select2-4.1.0-rc.0/dist/js/select2.min.js
+Not Found: /public/plugins/select2-4.1.0-rc.0/dist/js/select2.full.min.js
+Not Found: /public/plugins/select2-4.1.0-rc.0/dist/js/select2.full.min.js
+Not Found: /public/plugins/select2-4.1.0-rc.0/dist/js/select2.full.min.js
